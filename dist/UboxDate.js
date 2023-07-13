@@ -82,7 +82,7 @@ class UboxDate extends Date {
         return `${seconds}`;
     }
     fill(value) {
-        if (value < 0)
+        if (value < 10)
             return `0${value}`;
         return `${value}`;
     }
