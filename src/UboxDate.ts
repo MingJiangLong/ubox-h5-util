@@ -87,7 +87,7 @@ export default class UboxDate extends Date {
   }
 
   fill(value: number) {
-    if (value < 0) return `0${value}`
+    if (value < 10) return `0${value}`
     return `${value}`
   }
 
