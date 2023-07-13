@@ -1,0 +1,14 @@
+{
+  "name": "ubox-h5-util",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "dist"
+  ],
+  "author": "longjiang",
+  "license": "ISC"
+}
