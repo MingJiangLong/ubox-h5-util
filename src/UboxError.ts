@@ -1,7 +1,7 @@
 export class PropertyRequiredError extends Error {
   constructor(message = '必要参数缺失!') {
     super(message);
-    this.name = '必要参数缺失'
+    this.name = '必要参数缺失异常'
   }
 }
 
@@ -12,3 +12,9 @@ export class SeverSideError extends Error {
   }
 }
 
+export class ParamValidateError extends Error {
+  constructor(message = '提交参数验证异常') {
+    super(message);
+    this.name = '参数验证异常'
+  }
+}
